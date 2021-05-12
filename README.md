@@ -8,7 +8,7 @@ As more and more projects build on Xarray, we wanted to provide a central place 
 
 ## Requirements
 
-- uses a modern version of Xarray
+- Supports a recent version of Xarray
 - Available on GitHub
 - Open-source license
 - Documentation (i.e. user guide, API reference, usage examples)
