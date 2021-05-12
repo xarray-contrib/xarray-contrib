@@ -1,6 +1,6 @@
 # xarray-contrib
 
-xarray-contrib is a GitHub organization for gathering high-quality open source project that build on [Xarray](http://xarray.pydata.org/).
+xarray-contrib is a GitHub organization for gathering high-quality open source projects that build on [Xarray](http://xarray.pydata.org/).
 
 ## Vision
 
