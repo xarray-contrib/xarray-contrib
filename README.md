@@ -10,6 +10,7 @@ As more and more projects build on Xarray, we wanted to provide a central place 
 
 - Supports a recent version of Xarray
 - Available on GitHub
+- Multiple documented users and/or developers (stars, pull requests, dependencies, etc.)
 - Open-source license
 - Documentation (i.e. user guide, API reference, usage examples)
 - Unit tests + continuous integration
