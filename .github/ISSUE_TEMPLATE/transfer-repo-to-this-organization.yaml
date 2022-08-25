@@ -1,6 +1,6 @@
 name: Transfer repository to this organization
 description: Request to transfer a repository you own to this organization
-title: "[Transfer]: Repo-name"
+title: "Repo-name"
 labels: ["transfer"]
 assignees:
   - ''
