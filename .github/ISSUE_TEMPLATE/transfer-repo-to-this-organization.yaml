@@ -1,0 +1,82 @@
+name: Transfer repository to this organization
+description: Request to transfer a repository you own to this organization
+title: "Repo-name"
+labels: ["transfer"]
+assignees:
+  - ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please write a short description of the feature(s) the repository is providing
+  - type: input
+    id: code-repo
+    attributes:
+      label: Code Repository
+      description: What is the URL to your code repository on GitHub?
+      placeholder: e.g. https://github.com/org-name/project-name
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      description: What open-source license is the project using?
+      options:
+        - Apache-2.0
+        - MIT
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: xarray-support
+    attributes:
+      label: Xarray Support
+      description: Does your project support a recent version of [`xarray`](https://github.com/pydata/xarray)?
+      options:
+        - label: "Yes"
+          required: false
+  - type: checkboxes
+    id: pypi-conda-forge
+    attributes:
+      label: PyPI/Conda-forge
+      description: Available on [PyPI](https://pypi.org/) and/or [conda-forge](https://conda-forge.org)?
+      options:
+        - label: "Yes"
+          required: false
+  - type: checkboxes
+    id: documentation
+    attributes:
+      label: Documentation
+      description: Is your project's documentation sufficient for new users to get started, including
+      options:
+        - label: A user guide or tutorial
+        - label: Usage examples
+        - label: API reference
+          required: false
+  - type: checkboxes
+    id: unit-tests-ci
+    attributes:
+      label: Unit Tests/Continuous Integration
+      description: Does your project have unit tests and continuous integration setup?
+      options:
+        - label: "Yes"
+          required: false
+  - type: checkboxes
+    id: pep-8
+    attributes:
+      label: PEP8 compliant code style
+      description: Does your project follow a [PEP8](https://www.python.org/dev/peps/pep-0008) compliant code style?
+      options:
+        - label: "Yes"
+          required: false
+  - type: textarea
+    id: other-information
+    attributes:
+      label: Other information
+      description: Please provide any other information you would like to add.
